@@ -17,7 +17,7 @@ pipeline {
 
         stage('Run') {
             steps {
-                sh 'java New'
+                sh 'java Jenkins'
             }
         }
     }
